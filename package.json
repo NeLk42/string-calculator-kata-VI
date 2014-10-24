@@ -1,10 +1,13 @@
 {
-    "name" : "string-calculator-kata-V",
-    "version" : "1.0.0",
-    "devDependencies" : {
-        "jasmine-node" : "latest"
-    },
-    "scripts" : {
-        "test" : "jasmine-node specs/calc-spec.js"
-    }
+  "name": "string-calculator-kata-V",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jasmine-node": "latest"
+  },
+  "scripts": {
+    "test": "jasmine-node specs/calc-spec.js"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
